@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+}
+
+canvas{
+    border-left: white solid 1px;
+}
+
+.small_brush{
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #696969;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+.small_brush:hover{
+    background-color: lightgray;
+}
+
+.medium_brush{
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #696969;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+.medium_brush:hover{
+    background-color: lightgray;
+}
+
+.big_brush{
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #696969;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+
+}
+.big_brush:hover{
+    background-color: lightgray;
+}
+
+.white{
+    margin-top: 105px;
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: none;
+}
+.white:hover{
+    background-color: lightgrey;
+}
+.red{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border: none;
+}
+.red:hover{
+    background-color: darkred;
+}
+.green{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    border: none;
+}
+.green:hover{
+    background-color: darkgreen;
+}
+.blue{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+}
+.blue:hover{
+    background-color: darkblue;
+}
+
+.erase{
+    margin-top: 90px;
+    
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: #0c0c0c;
+    font-size: x-large;
+    font-weight: 1000;
+    color: white;
+    
+}
+.erase:hover{
+    background-color: lightgray;
+
+}
